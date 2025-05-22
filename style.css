@@ -132,16 +132,16 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: #E71B32; /* Rosa escuro */
+    background-color: #E71B32;
 }
 
 .media {
-    background-color: #d2f72d; /* Rosa claro */
+    background-color: #d2f72d; 
     width: 50%;
 }
 
 .forte {
-    background-color: #00FF85; /* Verde claro (pode ser alterado para rosa se preferir) */
+    background-color: #00FF85; 
     width: 100%;
 }
 
