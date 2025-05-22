@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root {
-  --branco: #c4abff;
-  --cor-de-fundo: #4F7DB0;
-  --fundo-senha: #C8139B;
-  --fundo-texto: #CC297D;
-  --borda: #92B1D9;
+  --branco: #ffffff; /* Cor branca */
+  --cor-de-fundo: #9B59B6; /* Roxo */
+  --fundo-senha: #D5006D; /* Rosa */
+  --fundo-texto: #FF6F91; /* Rosa claro */
+  --borda: #8E44AD; /* Roxo escuro */
   --roboto: 'Roboto', sans-serif;
   --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -132,16 +132,16 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: #E71B32;
+    background-color: #E71B32; /* Rosa escuro */
 }
 
 .media {
-    background-color: #FAF408;
+    background-color: #FF6F91; /* Rosa claro */
     width: 50%;
 }
 
 .forte {
-    background-color: #00FF85;
+    background-color: #00FF85; /* Verde claro (pode ser alterado para rosa se preferir) */
     width: 100%;
 }
 
@@ -149,7 +149,6 @@ label {
     display: flex;
     justify-content: space-between;
 }
-
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
