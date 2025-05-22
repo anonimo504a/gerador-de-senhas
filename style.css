@@ -16,7 +16,7 @@
 
 body {
     color: var(--branco);
-    background-color: var(--cor-de-fundo);
+    background-image: url(fundo_tela.png);
     font-family: var(--roboto);
 }
 
